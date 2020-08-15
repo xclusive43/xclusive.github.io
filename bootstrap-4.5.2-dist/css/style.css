@@ -1,0 +1,96 @@
+
+
+ body
+ {
+ 	background: #000;
+ }
+.header1 .main-menu .navbar .navbar-brand
+{
+	padding: 0 3rem 0  4 rem;
+	 
+}
+
+.navbar-toggler-icon
+{
+    background: red;
+}
+.header1 .main-menu .nav-item .nav-link
+{
+	 
+	font-family: 'Bowlby One SC',;
+	font-weight: 480;
+	color: #42413e;
+	padding: 1rem;
+}
+.header1 .main-menu .navbar-nav a{
+     font-family: 'Poppins', sans-serif;
+}
+.header1 .main-menu .navbar-nav .active a{
+	background:linear-gradient(red,#green);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:red;
+	background-clip: text;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header1 .main-menu .navbar-nav   a:hover{
+	background:linear-gradient(red,#green);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:red;
+	background-clip: text;
+   
+}
+
+ .title-text-uppercase
+{   margin-top: 10px;
+    
+    font-family: 'Poppins', sans-serif;
+ 
+    color: #bebebe;
+}
+
+.img-fluid
+{   margin-top: 50px;
+    width: 100%;
+     
+    border-radius: 50%;
+}
+
+.button
+{   
+    padding: .8rem 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    border:2px solid rgba(0, 0, 0, 0);
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+.button.primary-button:hover{
+    background: #eaeaea;
+    background-clip: padding-box;
+    color: black;
+}
+.button.primary-button::after{
+    position: absolute;
+    top: -2px;left: -2px; right: -2px; bottom: -2px;
+    background: linear-gradient(red,rgba(141, 9, 40, 0.85));
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+    
+}
+.button.secondary-button:hover{
+    background: #eaeaea;
+    background-clip: padding-box;
+    color: black;
+}
+.button.secondary-button::after{
+    position: absolute;
+    top: -2px;left: -2px; right: -2px; bottom: -2px;
+    background: linear-gradient(red,rgba(141, 9, 40, 0.85));
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+    
+}
